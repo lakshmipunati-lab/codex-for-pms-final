@@ -62,15 +62,3 @@ to summarize the proximity is the issue cuz its not fair
 
 ### 16.
 add some of the important things discussed in the chart to AGENTS.md
-
-### 17.
-Act as a skeptical senior product manager. Review all 147 support tickets, focusing on changes after August 12. Identify the three most important insights that a basic summary would miss. For each insight, explain the evidence, customer impact, possible root cause, confidence level, and what additional data would validate or disprove it. Finish with one product recommendation backed by the strongest evidence. Copy prompt
-
-### 18.
-What is the actual operational impact of responders receiving fewer offers after 4.2? Are callouts going unfilled, response times increasing, or certain responders being disproportionately affected? Quantify the impact where possible and distinguish confirmed outcomes from assumptions. Copy
-
-### 19.
-Can we determine how much of the increase in callouts without a recorded acceptance is associated with missed pings versus changes in offer distribution? Break down the affected callouts by their ping outcomes and identify which failure mode contributes most. What additional data would establish causality? Copy
-
-### 20.
-based on all this, what should the next plan of action
