@@ -77,3 +77,7 @@ This context comes from the Company wiki pages (About Rook, Rook Dispatch, Rook 
 The Rook ping data (June 29–September 6) shows a sharp change around 4.2: the week before release had 134 of 172 pings taken and 2 missed; the week of August 10, which straddles the August 12 release, had 96 of 177 taken and 38 missed. Missed pings remained elevated in the following weeks. This is a signal to investigate, not proof of cause; ranking and ping wait changed together.
 
 Support tickets through September 7 include multiple open reports about offers moving on too soon and responders receiving unusually few offers. These corroborate user concern but do not establish why it is happening. The available release notes still do not identify the three 4.2 defect fixes.
+
+Support records contain 42 tickets on or before August 12 across 45 days and 105 after across 26 days; many are follow-ups, not unique customers. Among post-release callouts, 48 of 428 had no recorded acceptance (11.2%) versus 49 of 891 before/on release (5.5%); 26 post-release unfilled callouts included a missed ping, versus 4 before/on release, while declines-only rates stayed near 5%.
+
+Four of 16 responders had more than a 50% drop in raw weekly pings after release, but the database lacks eligible-pool and rank data, so this does not establish unfair routing. It also lacks delivery/open and accepted-at timestamps, so true response latency and timeout-versus-ranking causality remain unknown.
