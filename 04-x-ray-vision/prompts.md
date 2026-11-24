@@ -17,7 +17,10 @@ prompt library built from your own questions.
 ---
 
 ### 1.
+based the issue at hand, which folder should look at first
 
 ### 2.
+how does proximity and acceptance weigh
 
 ### 3.
+if a hero didnt answer the first time, do we redirect for the next call?

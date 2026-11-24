@@ -85,3 +85,7 @@ Four of 16 responders had more than a 50% drop in raw weekly pings after release
 Eastgate callouts show Meteor Mite was pinged on 62 of 114 calls before August 12 (54%) and 9 of 57 after (16%); after her August 16 miss, she received no ping on the next five Eastgate calls. The Gale's contact share rose from 72 of 114 calls (63%) to 54 of 57 (95%), while Eastgate call volume also fell.
 The available routing code ranks eligible responders using proximity, capability match, and a recent-acceptance score. In 4.2, recent acceptance weight fell from 0.40 to 0.25; accepts add 0.08, while declines and misses subtract 0.12, with no time decay in the shown history code.
 This creates a plausible feedback loop from missed pings to lower future rank, but database outcomes do not prove that caused the shift. Validate against the deployed 4.2 version, per-callout eligible responder lists, availability and location, and ranking-score traces.
+
+In the shown routing code, the acceptance score is kept in an in-memory dictionary and starts at 0.5 when no entry exists; the code does not show durable storage across restarts. A month without an offer causes no score change.
+The availability, travel-time, and phone-send/check/withdraw functions are placeholders in the code folder, so it describes the intended sequence but does not verify those live operations.
+A low acceptance score changes a responder's order but does not remove them from the shown list; to raise it, they must receive and take an offer. Confirm the live implementation with Engineering.
