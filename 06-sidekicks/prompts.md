@@ -15,6 +15,8 @@ prompt library built from your own questions.
 
 ### 1.
 
+can you run one for today
+
 ### 2.
 
 ### 3.
