@@ -15,6 +15,10 @@ prompt library built from your own questions.
 
 ### 1.
 
+Using director-request.txt, Rook's wiki, the comments on the 4.2 release page, the predecessor's note, and Meteor Mite's callout history, identify the mechanism that may be preventing her from receiving new callouts. How does Rook currently distinguish missed pings, intentional declines, and temporary unavailability? Separate confirmed findings from assumptions and cite the source files.
+
 ### 2.
+
+\\Using director-request.txt, Rook's wiki, the comments on the 4.2 release page, the predecessor's note, and Meteor Mite's callout history, identify the mechanism that may be preventing her from receiving new callouts. How does Rook currently distinguish missed pings, intentional declines, and temporary unavailability? Separate confirmed findings from assumptions and cite the source files
 
 ### 3.

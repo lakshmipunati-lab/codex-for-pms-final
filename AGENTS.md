@@ -89,3 +89,8 @@ This creates a plausible feedback loop from missed pings to lower future rank, b
 In the shown routing code, the acceptance score is kept in an in-memory dictionary and starts at 0.5 when no entry exists; the code does not show durable storage across restarts. A month without an offer causes no score change.
 The availability, travel-time, and phone-send/check/withdraw functions are placeholders in the code folder, so it describes the intended sequence but does not verify those live operations.
 A low acceptance score changes a responder's order but does not remove them from the shown list; to raise it, they must receive and take an offer. Confirm the live implementation with Engineering.
+
+Helen asked for a tangible handler and responder experience addressing quiet responders, not merely a configuration change; see 05-super-speed/director-request.txt.
+Kip described Meteor Mite as unusually quiet while The Gale was busy, and could not see why in the console.
+Release 4.2 comments identify the three defect fixes: duplicate push notifications, capability-tag ordering, and coverage-export time zone.
+The Module 5 brief and clickable handler-console prototype are in 05-super-speed; their explanation is a hypothesis pending routing and eligibility traces.
